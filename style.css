@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color:rgb(94, 101, 107); */
+}
+:root
+{
+    --primary: #1e90ff;
+    --underlines:rgb(243, 19, 19);
+}
+body{
+    font-family: 'Roboto';
+}
+img{
+    height: 100%;
+    width: 100%; 
+}
+.centered {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+.caption
+{
+    color: white;
+    text-decoration: underline ;
+    text-decoration-color: var(--underlines);/*rgb(247, 85, 85)*/
+    font-weight: 100;
+    font-size: 25px;
+    position: absolute;
+    top: 57%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+  
+.container
+{
+    
+    
+    /* margin: 2rem; */
+}
+h3{
+    text-decoration: underline ;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+.contents
+{
+    font-size: 15px;
+    font-weight: 25px;
+    text-align:justify;
+    margin: 2rem;
+}
+.secfontcolor
+{
+    color:rgb(255, 0, 0);
+}
+.paragraph
+{
+/* padding: 0px;
+margin: 0px; */
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: .2px;
+text-align: justify;
+}
+.navigation
+{
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/221908519/Electric%20Circuit-Tech%20Background.png?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=a3e88db4ab01234d671012038d7ad798");
+    opacity: 80%;
+    background-blend-mode:multiply;
+    color: rgb(255, 255, 255);
+    padding: 3rem 3rem;
+    /* border-top-right-radius: 50px; */
+    border-radius: 1rem;
+}
+.navigation ul
+{
+    text-align:center;
+    list-style: none;
+}
+.navigation li
+{
+    display:inline-block;
+    padding: 1rem;
+}
+.navigation a
+{
+color: rgb(255, 255, 255);
+}
+footer li
+{
+    display:inline-block;
+    padding: 1rem;
+}
+footer ul
+{
+    text-align:center;
+    list-style: none;
+}
+footer a{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color: rgb(255, 0, 0);
+    width: max-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+}
+.projects
+{
+    margin: 2rem;
+}
+.projecttile
+{
+    
+    width: 30rem;
+    height: 25rem;
+    align-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.primarylink
+{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color: rgb(255, 0, 0);
+    width: max-content;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+    align-items: right;
+
+}
