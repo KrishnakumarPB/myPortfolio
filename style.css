@@ -14,37 +14,52 @@
 body{
     font-family: 'Roboto';
 }
-img{
-    height: 100%;
-    width: 100%; 
+.top
+{
+    background-image: url("/attachments/apple_keyboard-Brand_Desktop_Wallpapers\ Wallpaper_1920x1080[10wallpaper.com].jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    /* background-size: contain; */
+    height: 60rem;
+    width: 120rem;
+    
 }
+header
+{
+    
+    max-height: 200rem;
+}
+
 .centered {
-    color: white;
+    align-content:stretch;
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-size: 50px;
-    font-weight: 500;
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-  }
+    font-weight: 500; 
+   } 
+p
+{
+    line-height: 30px;
+}
 .caption
 {
-    color: white;
+    text-align:center;
+    color: rgb(255, 255, 255);
     text-decoration: underline ;
-    text-decoration-color: var(--underlines);/*rgb(247, 85, 85)*/
+    text-decoration-color: var(--underlines);
     font-weight: 100;
-    font-size: 25px;
-    position: absolute;
-    top: 57%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-}
+    font-size: 30px;
+    
+     
+ } 
   
 .container
 {
-    
-    
-    /* margin: 2rem; */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 h3{
     text-decoration: underline ;
@@ -64,8 +79,7 @@ h3{
 }
 .paragraph
 {
-/* padding: 0px;
-margin: 0px; */
+
 font-weight: 400;
 font-size: 20px;
 line-height: 20px;
@@ -79,7 +93,6 @@ text-align: justify;
     background-blend-mode:multiply;
     color: rgb(255, 255, 255);
     padding: 3rem 3rem;
-    /* border-top-right-radius: 50px; */
     border-radius: 1rem;
 }
 .navigation ul
@@ -137,4 +150,4 @@ footer a{
     border-radius: 2rem;
     align-items: right;
 
-}
+ } 
