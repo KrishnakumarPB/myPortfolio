@@ -3,9 +3,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    /* background-color:rgb(94, 101, 107); */
-}
+    /* box-sizing: border-box; */
+} 
 :root
 {
     --primary: #1e90ff;
@@ -23,14 +22,14 @@ body{
     padding-bottom: 0px; */
     /* margin-bottom: 0px; */
     /* background-size: contain; */
-    height: 60rem;
-    width: 120rem;
+    /* height: 60rem; */
+    /* width: 120rem; */
     
 }
 header
 {
     
-    max-height: 200rem;
+    max-height: 500rem;
 }
 
 .centered {
