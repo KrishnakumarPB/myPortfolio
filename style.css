@@ -19,9 +19,9 @@ body{
     background-image: url("/attachments/apple_keyboard-Brand_Desktop_Wallpapers\ Wallpaper_1920x1080[10wallpaper.com].jpg");
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
     /* background-size: contain; */
     height: 60rem;
     width: 120rem;
